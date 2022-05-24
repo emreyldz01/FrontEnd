@@ -1,0 +1,71 @@
+<head>
+<!-- türkçe karakter -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- responsive design -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="author" content="Emre YILDIZ" />
+<meta name="description" content="Html5 property" />
+</head>
+<body background="../resources/resim.jpg" >
+    <!-- isim bölümü -->
+    <div>
+        <label for="adi">Name:</label>
+        <input type="text" id="adi" name="adi" placeholder="enter your name " required autofocus />
+    </div>
+    <div>
+        <!-- e-mail bölümü -->
+        <label for="Email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="enter your email adress" required/>
+    </div>
+    <div>
+        <!-- password kısmı -->
+        <label for="Password">password:</label>
+        <input type="Password" id="Password" name="Password" placeholder="Enter your password" required/>
+    </div>
+    <div>
+        <!-- telefon numarası -->
+        <label for="Phone_Number">Phone Number:</label>
+        <input type="Phone_Number" id="Phone_Number" name="Phone_Number" placeholder="Enter your phone number" required/>
+    </div>
+    <div>
+        <!-- cinsiyet bölümü -->
+        <label for="Gender">Gender:</label>
+        <input type="radio" id="Male" name="gender" checked  />
+            <label for="Male">Male</label>
+
+            <input type="radio" id="female" name="gender"  />
+            <label for="female">Female</label>
+
+            <input type="radio" id="Other" name="gender"  />
+            <label for="Other">other</label>
+    </div>
+
+    <div>
+        <!-- dil bölümü -->
+        <select name="backend_data" id="data" >
+            <option value="0" >Select Language</option>
+            <option value="backend_Turkish" >Turkish</option>
+            <option value="backend_English" >English</option>
+            <option value="backend_Chinese" >Chinese</option>
+        </select>
+    </div>
+    <div>
+        <!-- zip code -->
+        <label for="Zıp_Code">Zıp Code:</label>
+        <input type="text" id="Zıp_Code" name="Zıp_Code" placeholder="Zıp Code" required autofocus />
+    </div>
+    <!-- about kısmı -->
+    <div><label for="About">About:</label></div>
+    <div>
+        <textarea placeholder="write about yourself" cols="25" rows="4"></textarea>
+    </div>
+    <div>
+        <!-- register butonu -->
+        <button style="background-color:tomato;color:white;width:40%;height: 5%;">Register<button></button>
+    </div>
+   
+   
+
+</body>

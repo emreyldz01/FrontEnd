@@ -1,0 +1,58 @@
+<head>
+    <!-- türkçe karakter -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Emre YILDIZ" />
+    <meta name="description" content="Html5 property" />
+    <style>
+        table{
+            text-align: center;
+            border: 2px solid green;
+        }
+            td
+            {
+                width: 180px;
+                height: 30px;
+                border:red 2px solid;
+            }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- ilk satır -->
+        <tr>
+            <td>resim</td>
+        <td>Java</td>
+        <td>C#</td>
+        <td>Angular</td>
+        <td>C++</td>
+        </tr>
+        <tr>
+            <!-- ikinci satır -->
+            <td width="200" height="200" align="center"><img src="../resources/dan.jpg" height="150" width="150" border="2"></td>
+            <td width="200" height="200" align="center"> <big><em>JSF</em></big></td>
+            <!-- 3 blok boyunca devam ettiği için rowspan 3 kullandım -->
+            <td width="200" height="200" rowspan="3" align="center"> <big><em>EF</em></big></td>
+            <td width="200" height="200" align="center"> <big><em>ECMA-1</em></big></td>
+            <td width="200" height="200" align="center"> <big><em>1</em></big></td>
+        </tr>
+        <tr>
+            <!-- üçüncü satır -->
+            <td width="200" height="200" align="center"><img src="../resources/dan.jpg" height="150" width="150" border="2"></td>
+            <!-- 2 blok boyunca devam ettiği için rowspan 2 kullandım -->
+            <td width="200" height="200" rowspan="2" align="center"> <big><em>JSP</em></big></td>
+            <td width="200" height="200" align="center"> <big><em>SASS</em></big></td>
+            <td width="200" height="200" align="center"> <big><em>2</em></big></td>
+        </tr>
+        <tr>
+            <!-- dördüncü satır -->
+            <td width="200" height="200" align="center"><img src="../resources/dan.jpg" height="150" width="150" border="2"></td>
+            <!-- yanyana 2 bloğu kapsadığı için col span 2 -->
+            <td width="200" height="200" colspan="2" align="center"> <big><em>SCSS</em></big></td>
+        </tr>
+        
+        
+    </table>
+</body>

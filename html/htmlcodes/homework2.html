@@ -1,0 +1,95 @@
+<head>
+    <!-- türkçe karakter -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Emre YILDIZ" />
+    <meta name="description" content="Html5 property" />
+    </head>
+<hr>
+<!-- sırasız liste -->
+ <ul>
+    <li>JAVA</li>
+    <li>C#</li>
+    <li>ANGULAR</li>
+    <li>JAVASCRIPT</li>
+ </ul>
+    <hr>
+    <!-- sıralı liste 1 den başlayan -->
+    <!-- default olarak 0 dan başladığı için start="1" yazmaya gerek yok -->
+<ol>
+    <li>JAVA</li>
+    <li>C#</li>
+    <li>ANGULAR</li>
+    <li>JAVASCRIPT</li>
+</ol>
+<hr>
+    <!-- sıralı liste 2 den başlayan -->    
+    <ol start="2">
+        <li>JAVA</li>
+        <li>C#</li>
+        <li>ANGULAR</li>
+        <li>JAVASCRIPT</li>
+    </ol>
+    <hr>
+    <!-- sıralı liste roma rakamları ile  -->
+    <ol type="i">
+        <li>JAVA</li>
+        <li>C#</li>
+        <li>ANGULAR</li>
+        <li>JAVASCRIPT</li>
+    </ol>
+    <hr>
+    <!-- sıralı liste roma rakamları ile  -->
+    <ol type="I">
+        <li>JAVA</li>
+        <li>C#</li>
+        <li>ANGULAR</li>
+        <li>JAVASCRIPT</li>
+    </ol>
+    <hr>
+    <!-- sıralı liste 2 den başlayan -->  
+    <ol start="2">
+        <li>JAVA</li>
+        <li>C#</li>
+        <li>ANGULAR</li>
+        <li>JAVASCRIPT</li>
+    </ol>
+    <hr>
+    <hr>
+    <!-- içi dolu çember için circle yerine |disc| kullandım -->
+    <ul style="list-style-type:disc;">
+        <li>JAVA</li>
+     <ul>
+         <!-- bir önceki listeye bağlı sırasız alt liste -->
+         <!-- içi boş çember için |circle| -->
+            <ul style="list-style-type:circle;">
+            <li>JAVA SE</li>
+            <li>JAVA EE</li>
+            <ul>
+                <!-- bir önceki listenin alt listesi sırasız -->
+                <!-- kare için |square| -->
+                <ul style="list-style-type:square;">
+                        <li>JSP</li>
+                        <li>SERVLET</li>
+                        <li>HIBERNAT</li>
+                        <li>JSF</li>
+                        <!-- default olarak bulunduğu listenin simgesi olan kare ile devam eder -->
+                        <!-- bundan dolayı square diye belirtmeye gerek yok -->
+                    <ul>
+                        <!-- bir önceki listenin alt listesi sırasız -->
+                        <li>h:input</li>
+                        <li>f:facet</li>
+                        <li>h:form</li>
+              <!-- bir sonraki eleman bir önceki listeye ait bu yüzden bir önceki listeyi |</ul>| kapattım -->
+                    </ul style="list-style-type:square;">
+                        <li>SERVLET</li>
+             <!-- bir sonraki eleman iki önceki listeye ait bu yüzden bir önceki listeyi |</ul>| kapattım -->          
+                </ul style="list-style-type:circle;">
+               <!-- bir önceki listeyi de kapattım --> 
+                </ul>
+                <!-- default olarak bulunduğu listenin simgesi olan çember ile devam eder -->
+                        <!-- bundan dolayı circle diye belirtmeye gerek yok -->
+                        <li>JAVA ME</li>                  
+                </ul>
