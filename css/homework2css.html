@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeWork2CSS</title>
+    <style>
+        .left-rectangle {
+        float: left;
+      }
+      .right-rectangle {
+        float: right;
+      }
+      .border {
+          /* margin köşelere olan sabit uzaklık orantılı olsun diye % deli kullandım*/
+        margin: 5%;
+        /* border ile kareler arasındaki uzaklık */
+        padding: 5%;
+        /* border'ın kalınlığı ve renk ayarı */
+        border: 8px solid blue;
+        /* sınır çizgilerinin oluşturduğu şeklin kenar uzunlukları */
+        width: 700px;
+        height: 100px;
+      }
+        /* div sınıfının child'larına ulaşmak için |div div div| kullandım */
+        /* benim ulaşmak istediğim div içiçe iki div in içinde olduğundan |div div div| kullandım */
+      div div div {
+        width: 200px;
+        height: 100px;
+        background-color: violet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border">
+        <div>
+        <div class="left-rectangle"></div>
+      <div class="right-rectangle"></div>
+    </div>
+    </div>
+  </body>
+</html>
